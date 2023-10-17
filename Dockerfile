@@ -10,5 +10,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-wefwef
+
 CMD [ "node", "src/server.js" ]
